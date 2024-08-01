@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+/* header */
+
+header{
+  background-color: #F55A5A;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5em;
+  padding: 1em;
+}
+
+.header--title{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
+/* main */
+
+div.card{
+  max-width: 470px;
+  margin: 0 auto;
+  display: flex;
+  gap: 1.25em;
+  padding: 2.8125em 0 1.125em;
+  border-bottom: 1px solid #F5F5F5;
+  color: #2B283A;
+  font-size: 0.875rem;
+}
+
+.card--image{
+  width:26.6%;
+  border-radius: 5px;
+}
+
+.card--location{
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.location-link{
+  text-transform: none;
+  color: #918E9B;
+}
+
+.location-name{
+  margin: 0 .857em 0 .357em;
+  letter-spacing: .17em;
+}
+
+.map-icon{
+  width: 10px;
+}
+
+.location-link:hover{
+  color: #3a383d;
+}
+
+.card--title{
+  margin: .166em 0 1em;
+  font-size: 1.5rem;
+}
+
+.visit-period{
+  font-weight: 700;
+}
+
+.card--description{
+  text-overflow: ellipsis;
+}
