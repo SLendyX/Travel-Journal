@@ -21,7 +21,7 @@ export default [
         title: "Meteora",
         location: "Greece",
         googleMapsUrl: "https://maps.app.goo.gl/LEzrciKbKW5SyrC96",
-        startDate: "1 August, 2022",
+        startDate: "1 September, 2022",
         endDate: "1 September, 2022",
         description: "6 Eastern Orthodox monasteries listed as a World Heritage site, built on top of rock pillars.",
         imageUrl: "/meteora.jpg"
