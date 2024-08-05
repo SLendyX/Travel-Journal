@@ -1,5 +1,5 @@
 import React from "react"
-import map_icon from "../public/map_icon.svg"
+import map_icon from "/map_icon.svg"
 
 export default function Place(props){
     props = props.item

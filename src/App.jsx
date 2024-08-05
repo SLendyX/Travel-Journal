@@ -4,13 +4,17 @@ import Header from "./Header.jsx"
 import data from "./data.js"
 
 export default function App(){
+  const places = data.map((place, index) =>
+    <Place 
+      key={index}
+      item={place}
+    />
+  )
+
   return (
     <>
-    <Header />
-      <Place 
-        key="1"
-        item = {data[0]}
-      />
+      <Header />
+      {places}
     </>
   )
 }
